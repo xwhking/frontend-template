@@ -13,8 +13,8 @@ const routes = [
     { path: '/basic', component: BasicInfo },
     { path: '/school', component: InSchoolInfo },
     { path: '/expand', component: ExpandInfo },
-    { path: '/login', component: Login },
-    { path: '/register', component: Register },
+    { path: '/user/login', component: Login },
+    { path: '/user/register', component: Register },
 ]
 
 const router = createRouter({

@@ -20,7 +20,7 @@ const menuValue = ref("item1");
 const toLogin = () => {
   menuValue.value = null;
   console.log(menuValue.value);
-  router.push("/login");
+  router.push("/user/login");
 }
 const toOtherPage = (value) => {
   console.log(value);
